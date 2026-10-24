@@ -1,0 +1,234 @@
+/* Reset Basic */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fcf8f2;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header & Logo */
+header {
+    background-color: #e5a024; /* Warna khas emas logo */
+    color: #4a2e12;
+    padding: 15px 20px;
+    border-bottom: 4px solid #4a2e12;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #4a2e12;
+}
+
+.header-text p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Navigasi */
+nav {
+    background-color: #4a2e12;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #e5a024;
+    color: #4a2e12;
+}
+
+/* Layout Container */
+.container {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+/* Slogan Section */
+.slogan-box {
+    background-color: #fff3db;
+    border-left: 5px solid #e5a024;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.slogan-box h2 {
+    color: #4a2e12;
+    margin-bottom: 10px;
+}
+
+/* Profile Card */
+.profile-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.profile-card h2 {
+    color: #4a2e12;
+    border-bottom: 2px solid #e5a024;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.profile-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.profile-desc p {
+    margin-bottom: 10px;
+}
+
+/* Visi Misi Grid */
+.visi-misi-grid {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.card {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #4a2e12;
+    margin-bottom: 10px;
+}
+
+.card ul {
+    margin-left: 20px;
+}
+
+/* Layanan Overview */
+.layanan-overview {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.layanan-overview h2 {
+    color: #4a2e12;
+    margin-bottom: 15px;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.service-item {
+    background: #fff8eb;
+    padding: 12px;
+    border: 1px solid #e5a024;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Table Styling */
+.table-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+.table-section h3 {
+    color: #4a2e12;
+}
+
+.note {
+    font-size: 13px;
+    color: #666666;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #e5a024;
+    color: #4a2e12;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #fdfaf5;
+}
+
+/* Footer */
+footer {
+    background-color: #4a2e12;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 14px;
+}
